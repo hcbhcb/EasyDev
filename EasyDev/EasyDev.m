@@ -1120,7 +1120,8 @@
                 return res;
             }
         } else {
-            id res = idfunc1(obj,NSSelectorFromString(funcs),first);
+//            id res = idfunc1(obj,NSSelectorFromString(funcs),first);
+            id res = [obj performSelector:NSSelectorFromString(funcs) withObject:first];
             return res;
         }
 

@@ -11,7 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Calculator : NSObject
+
 + (NSString *)calcComplexFormulaString:(NSString *)formula;
+
 @end
 
 NS_ASSUME_NONNULL_END
